@@ -10,7 +10,7 @@ body {
 h1  {
   color: black;
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.5;
   font-weight: bold;
 }
@@ -39,11 +39,20 @@ a:hover {
   color: grey;
 }
 
-div {
-  box-shadow: 2px 1px;
+.hi {
+  background-color: #99bbad;
   border-radius: 25px;
-  background-color: #ebd8b7;
   padding: 2px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ebd8b7;
+  box-shadow: 2px 2px #c6a9a3;
+  border-radius: 25px;
+  padding: 2px;
+  margin: 8px;
 }
 
 .profile-pic {
@@ -62,6 +71,7 @@ div {
 .list-inline {
   list-style: none;
   padding-left: 0px;
+  font-size: 35px;
 }
 
 
